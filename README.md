@@ -24,18 +24,7 @@
 
 ---
 
-### 🌍 Deploy DarkX Ultra on your favourite platform
-
-[![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com)
-[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com)
-[![Pterodactyl](https://img.shields.io/badge/Pterodactyl-1DA1F2?style=for-the-badge&logo=pterodactyl&logoColor=white)](https://pterodactyl.io)
-[![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=android&logoColor=white)](#-termux-android)
-
-</div>
-
----
-
-## ✨ DarkX Ultra Features
+## ✨ Features
 
 | | Feature | Description |
 |---|---|---|
@@ -43,15 +32,26 @@
 | 🛡️ | **DarkX Security** | Anti-spam, Anti-tag, and Advanced Group Protection |
 | 🎭 | **Custom Branding** | Fully customized menu with DarkX Cyberpunk aesthetics |
 | 🤖 | **AI Integration** | Smart AI chatbot for interactive conversations |
-| 🎮 | **Gaming Hub** | Built-in games and interactive group features |
+| 🗄️ | **Multi-Database** | Support for MongoDB, PostgreSQL, and SQLite |
 
 ---
 
-## ⚡ Quick Start (Termux)
+## 🔐 Getting Your Session ID
+> [!IMPORTANT]
+> DarkX Ultra inatumia **Session ID** ili kuunganisha bot na WhatsApp yako bila kuhitaji ku-scan QR kila wakati bot inapozimika.
 
-```bash
-git clone [https://github.com/darkx-pro/Min-pro-bot.git](https://github.com/darkx-pro/Min-pro-bot.git)
-cd Min-pro-bot
-npm install
-# Edit your config.js or .env
-npm start
+### Hatua ya 1 — Fungua Tovuti ya Session
+Nenda kwenye link hii kupata kodi yako:
+> 🌐 **[BONYEZA HAPA KUPATA SESSION](https://mega-pairing.onrender.com)**
+
+### Hatua ya 2 — Njia ya Kuunganisha (Pairing Code)
+1. Ingiza namba ya WhatsApp ya bot (mfano: `255775710774`).
+2. Bonyeza **Generate Pair Code**.
+3. Utapata kodi ya herufi 8.
+4. Kwenye WhatsApp ya Bot: **Linked Devices** -> **Link with phone number instead**.
+5. Ingiza ile kodi. Ukimaliza, utatumiwa **Session ID** kwenye WhatsApp yako au kwenye tovuti.
+
+### Hatua ya 3 — Usanidi
+Copy ile Session ID na uiweke kwenye faili lako la `.env` au `config.js`:
+```env
+SESSION_ID=DarkX_Ultra_xxxxxxxxxxxx
