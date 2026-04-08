@@ -4,17 +4,19 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&pause=1000&color=00f2ff&center=true&vCenter=true&width=600&lines=DarkX+Ultra+WhatsApp+Bot;Modified+by+Mr+X+Developer;250%2B+Advanced+Commands;Next+Gen+Cyberpunk+Aesthetics)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&pause=1000&color=00f2ff&center=true&vCenter=true&width=600&lines=DarkX+Ultra+WhatsApp+Bot;Modified+by+Mr+X+Developer;250%2B+Commands+%26+Counting;Plugin+Architecture+%7C+Auto-Loading;Deploy+Anywhere+in+Minutes)](https://git.io/typing-svg)
 
 <br/>
 
 [![Version](https://img.shields.io/badge/Version-6.0.0-cyan?style=for-the-badge&logo=github)](https://github.com/darkx-pro)
-[![Author](https://img.shields.io/badge/Author-Mr%20X%20Developer-red?style=for-the-badge&logo=probot)](https://github.com/darkx-pro)
-[![Brand](https://img.shields.io/badge/Brand-DarkX%20Official-blueviolet?style=for-the-badge)](https://whatsapp.com/channel/0029VbCdURHH5JM4JJHYAo2X)
+[![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
+[![WhatsApp](https://img.shields.io/badge/Baileys-7.x-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://github.com/WhiskeySockets/Baileys)
+[![Stars](https://img.shields.io/github/stars/darkx-pro/Min-pro-bot?style=for-the-badge&logo=starship&color=gold)](https://github.com/darkx-pro/Min-pro-bot/stargazers)
+[![Forks](https://img.shields.io/github/forks/darkx-pro/Min-pro-bot?style=for-the-badge&logo=git&color=orange)](https://github.com/darkx-pro/Min-pro-bot/network/members)
 
 <br/>
 
-**250+ Commands · Multi-Platform · Highly Optimized · Modified for Performance**
+**250+ Commands · Multi-Platform · Multi-Database · Plugin Architecture**
 
 <br/>
 
@@ -24,34 +26,86 @@
 
 ---
 
+### 🌍 Deploy DarkX Ultra on your favourite platform
+
+[![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com)
+[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)](https://render.com)
+[![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app)
+[![Koyeb](https://img.shields.io/badge/Koyeb-121212?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com)
+[![Fly.io](https://img.shields.io/badge/Fly.io-7B3FE4?style=for-the-badge&logo=flydotio&logoColor=white)](https://fly.io)
+[![Replit](https://img.shields.io/badge/Replit-F26207?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com)
+[![VPS](https://img.shields.io/badge/Linux_VPS-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#-vps--linux-server)
+[![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=android&logoColor=white)](#-termux-android)
+[![Windows](https://img.shields.io/badge/Windows_WSL-0078D4?style=for-the-badge&logo=windows&logoColor=white)](#-windows-wsl)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#-dockerfile)
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [✨ Features](#-features)
+- [📌 Requirements](#-requirements)
+- [⚡ Quick Start](#-quick-start)
+- [🔐 Getting Your Session ID](#-getting-your-session-id)
+- [⚙️ Configuration](#️-configuration)
+- [📦 Installation](#-installation)
+- [🚀 Deployment](#-deployment)
+  - [📱 Termux](#-termux-android)
+  - [🖥️ VPS Linux Server](#-vps-linux-server)
+  - [🪟 Windows WSL](#-windows-wsl)
+  - [🔁 Replit](#-replit)
+  - [🟣 Heroku](#-heroku)
+  - [🎨 Render](#-render)
+  - [🚂 Railway](#-railway)
+  - [☁️ Koyeb](#-koyeb)
+  - [🪂 Fly.io](#-flyio)
+  - [🐳 Dockerfile](#-dockerfile)
+  - [🎮 Discord Panels](#-discord-panels-pterodactyl)
+- [🗄️ Storage Backends](#️-storage-backends)
+- [🛠️ Environment Variables](#️-environment-variables)
+- [📜 npm Scripts](#-npm-scripts)
+- [🔌 Plugin System](#-plugin-system)
+- [🔧 Troubleshooting](#-troubleshooting)
+- [🤝 Contributing](#-contributing)
+
+---
+
 ## ✨ Features
 
 | | Feature | Description |
 |---|---|---|
-| ⚡ | **Ultra Fast** | Optimized code for low latency responses |
-| 🛡️ | **DarkX Security** | Anti-spam, Anti-tag, and Advanced Group Protection |
-| 🎭 | **Custom Branding** | Fully customized menu with DarkX Cyberpunk aesthetics |
-| 🤖 | **AI Integration** | Smart AI chatbot for interactive conversations |
-| 🗄️ | **Multi-Database** | Support for MongoDB, PostgreSQL, and SQLite |
+| 🔌 | **Auto-loading Plugins** | Drop a `.ts` file in `plugins/` — it loads automatically, zero registration |
+| 💬 | **250+ Commands** | Group management, privacy, moderation, fun, AI, media, utilities |
+| 🗄️ | **5 Storage Backends** | MongoDB, PostgreSQL, MySQL, SQLite, or JSON files |
+| 🛡 | **Group Protection** | Anti-spam, bad word filter, link detection, anti-tag abuse |
+| 👑 | **Role System** | Owner, Sudo, Admin, and User permission levels |
+| 🤖 | **AI Chatbot** | Per-chat AI conversation mode |
+| 📱 | **Multi-Platform** | Runs on Termux, VPS, Railway, Render, Heroku, Koyeb, Fly.io, Replit |
 
 ---
 
-## 🔐 Getting Your Session ID
-> [!IMPORTANT]
-> DarkX Ultra inatumia **Session ID** ili kuunganisha bot na WhatsApp yako bila kuhitaji ku-scan QR kila wakati bot inapozimika.
+## 📌 Requirements
 
-### Hatua ya 1 — Fungua Tovuti ya Session
-Nenda kwenye link hii kupata kodi yako:
-> 🌐 **[BONYEZA HAPA KUPATA SESSION](https://mega-pairing.onrender.com)**
+| Requirement | Version | Notes |
+|---|---|---|
+| ![Node.js](https://img.shields.io/badge/Node.js-20%2B-339933?logo=node.js&logoColor=white) | **20.x or higher** | Required |
+| ![npm](https://img.shields.io/badge/npm-8%2B-CB3837?logo=npm&logoColor=white) | 8.x or higher | Included with Node.js |
+| ![Git](https://img.shields.io/badge/Git-latest-F05032?logo=git&logoColor=white) | Any recent | For cloning |
+| ![ffmpeg](https://img.shields.io/badge/ffmpeg-latest-007808?logo=ffmpeg&logoColor=white) | Latest | Media processing |
 
-### Hatua ya 2 — Njia ya Kuunganisha (Pairing Code)
-1. Ingiza namba ya WhatsApp ya bot (mfano: `255775710774`).
-2. Bonyeza **Generate Pair Code**.
-3. Utapata kodi ya herufi 8.
-4. Kwenye WhatsApp ya Bot: **Linked Devices** -> **Link with phone number instead**.
-5. Ingiza ile kodi. Ukimaliza, utatumiwa **Session ID** kwenye WhatsApp yako au kwenye tovuti.
+> [!WARNING]
+> **Never use your personal WhatsApp number for the bot.** Always use a dedicated number.
 
-### Hatua ya 3 — Usanidi
-Copy ile Session ID na uiweke kwenye faili lako la `.env` au `config.js`:
-```env
-SESSION_ID=DarkX_Ultra_xxxxxxxxxxxx
+---
+
+## ⚡ Quick Start
+
+```bash
+git clone [https://github.com/darkx-pro/Min-pro-bot.git](https://github.com/darkx-pro/Min-pro-bot.git)
+cd Min-pro-bot
+npm install
+cp sample.env .env
+# Edit .env → add SESSION_ID and OWNER_NUMBER
+npm start
